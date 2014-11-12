@@ -1,0 +1,67 @@
+/* ===== SIDEBAR CONTACT BTN =================================== */
+
+// contact form button overides
+.contact-btn {
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-weight: normal;
+	padding: 4px 40px;
+	margin-bottom: 14px;
+}
+
+// bh color
+.butte-highlands .contact-btn {
+	background: $blue;
+
+	&:hover {
+		background: darken($blue, 6%);
+	}
+}
+
+// brn color
+.brimstone-mining .contact-btn {
+	background: $green;
+
+	&:hover {
+		background: darken($green, 6%);
+	}
+}
+
+// ogt color
+.owyhee-gold-trust .contact-btn {
+	background: $orange;
+
+	&:hover {
+		background: darken($orange, 6%);
+	}
+}
+
+
+/* ===== SIDEBAR META ========================================== */
+
+// contact button
+.sidebar-meta {
+	display: block;
+	width: 100%;
+	position: absolute;
+	bottom: 10px;
+	text-align: center;
+}
+
+// copyright
+.copyright {
+	// display: block;
+	// width: 100%;
+	// position: absolute;
+	// bottom: 10px;
+}
+
+.copyright__meta {
+	text-align: center;
+	font-size: .75rem;
+	color: #7e7e7e;
+	border-top: 1px solid rgba(black, 0.2);
+	width: 85%;
+	margin: 0px auto 15px auto;
+	padding-top: 20px;
+}

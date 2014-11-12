@@ -1,0 +1,32 @@
+/* ===== FOUNDATIONS OVERIDES ================================ */
+
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.columns {
+	padding: 0;
+}
+
+
+/* ===== VARIABLES ===================================== */
+
+// variables
+$yellow: #fee019;
+$blue: #397bae;
+$orange: #efa334;
+$green: #75ba34;
+
+
+/* ===== GLOBAL SETTINGS ===================================== */
+
+// global background settings
+body {
+	background: #e6e6e6;
+}
+
+// icons
+.hide-icons {
+	display: none;
+}

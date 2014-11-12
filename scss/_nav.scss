@@ -1,0 +1,141 @@
+/* ===== NAV BASIC SETUP ===================================== */
+
+// arrow icon general settings
+.icon-arrow {
+	width: 8px;
+	height: 14px;
+	position: absolute;
+	top: 24px;
+	right: 25px;
+	fill: rgba(black, 0.2);
+	transition: 0.2s;
+	transform: translate3d(0,0,0);
+}
+
+// nav
+.sidebarNav {
+	display: block;
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+}
+
+// links
+.sidebarNav__link {
+	position: relative;
+	color: #696969;
+	display: block;
+	padding: 18px 16px;
+	margin-bottom: 5px;
+	background: #f7f7f7;
+	border-left: 15px solid rgba(black, 0.2);
+
+	&:hover {
+		color: darken(#696969, 5%);
+
+		.icon-arrow {
+			transform: translate3d(3px, 0px, 0px) scale(1.15, 1.15);
+		}
+
+		// icon colors
+		.bh-right {
+			fill: $blue;
+		}
+
+		.brm-right {
+			fill: $green;
+		}
+
+		.ogt-right {
+			fill: $orange;
+		}
+
+	}
+}
+
+
+/* ===== NAV LINK TRANSITIONS AND COLOR SETTINGS ===================================== */
+
+.butte-link {
+	border-left: 10px solid $blue;
+	transition: 0.2s;
+
+	&:hover {
+		background: rgba($blue, 0.15);
+		color: darken($blue, 5%);
+	}
+}
+
+.butte-highlands .butte-link {
+	color: $blue;
+	background: rgba($blue, 0.1);
+
+	.icon-arrow {
+		transform: translate3d(3px, 0px, 0px) scale(1.15, 1.15);
+	}
+
+	.bh-right {
+		fill: $blue;
+	}
+
+	&:hover {
+		background: rgba($blue, 0.15);
+		color: darken($blue, 5%);
+	}
+}
+
+.mayflower-link {
+	border-left: 10px solid $green;
+	transition: 0.2s;
+
+	&:hover {
+		background: rgba($green, 0.15);
+		color: darken($green, 5%);
+	}
+}
+
+.brimstone-mining .mayflower-link {
+	color: $green;
+	background: rgba($green, 0.1);
+
+	.icon-arrow {
+		transform: translate3d(3px, 0px, 0px) scale(1.15, 1.15);
+	}
+
+	.brm-right {
+		fill: $green;
+	}
+
+	&:hover {
+		background: rgba($green, 0.15);
+		color: darken($green, 5%);
+	}
+}
+
+.ogt-link {
+	border-left: 10px solid $orange;
+	transition: 0.2s;
+
+	&:hover {
+		background: rgba($orange, 0.15);
+		color: darken($orange, 5%);
+	}
+}
+
+.owyhee-gold-trust .ogt-link {
+	color: $orange;
+	background: rgba($orange, 0.1);
+
+	.icon-arrow {
+		transform: translate3d(3px, 0px, 0px) scale(1.15, 1.15);
+	}
+
+	.ogt-right {
+		fill: $orange;
+	}
+
+	&:hover {
+		background: rgba($orange, 0.15);
+		color: darken($orange, 5%);
+	}
+}

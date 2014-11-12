@@ -1,0 +1,26 @@
+/* ===== VENDOR SYTLES ==================== */
+
+// 1. normalize
+// 2. foundation
+// 3. magnific-popup
+
+@import 'vendor/normalize';
+@import 'vendor/foundation';
+@import 'vendor/magnific-popup';
+
+
+/* ===== MAIN SYTLES ==================== */
+
+// 1. globals
+// 2. header
+// 3. nav
+// 4. sidebar-meta
+// 5. main-content
+
+@import 'globals';
+@import 'header';
+@import 'nav';
+@import 'sidebar-meta';
+@import 'main-content';
+
+
