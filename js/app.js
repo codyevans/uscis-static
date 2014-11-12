@@ -1,3 +1,5 @@
+/* === VENDOR JS ================================= */
+
 // run foundation
 $(document).foundation();
 
@@ -9,5 +11,26 @@ $('.parent-container').magnificPopup({
   gallery: {enabled: true}
   // other options
 });
+
+
+/* === APP JS ================================== */
+
+// page scroll effect
+var pagePocketScroll = function() {
+
+	var  titleArea = $('#titleArea');
+    titleAreaScrolled = "title-area-scrolled";
+
+	$(window).scroll(function() {
+	  if($(this).scrollTop() > 0) {
+	    titleArea.addClass(titleAreaScrolled);
+	  } else {
+	    titleArea.removeClass(titleAreaScrolled);
+	  }
+	});
+
+}
+
+pagePocketScroll();
 
 

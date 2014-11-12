@@ -1,12 +1,75 @@
 /* ===== MAIN CONTENT AREA ==================================== */
 
 .contentArea {
+	// adjust if needed
+}
+
+.content-container {
 	width: 100%;
 	padding-left: 260px;
 	padding-right: 50px;
-	//-webkit-backface-visibility: hidden;
+	margin-top: 210px;
 }
 
+
+// color bar
+.color-bar {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 7px;
+	background: darken($blue, 5%);
+	z-index: 60;
+}
+
+// color bar colors
+.butte-highlands .color-bar {
+	background: darken($blue, 5%);
+	background: linear-gradient(to right, darken($blue, 15%), $blue);
+}
+
+.brimstone-mining .color-bar {
+	background: darken($green, 5%);
+	background: linear-gradient(to right, darken($green, 15%), $green);
+}
+
+.owyhee-gold-trust .color-bar {
+	background: darken($orange, 5%);
+	background: linear-gradient(to right, darken($orange, 15%), $orange);
+}
+
+
+/* ===== TITLE AREA ============================================ */
+
+.title-area-container {
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	left: 243px;
+	padding-right: 275px;
+	z-index: 50;
+}
+
+// title area
+.title-area {
+	background: $background;
+	width: 100%;
+	max-width: 64.7rem;
+	height: 188px;
+	box-shadow: 0px 7px 6px -5px rgba(black, 0);
+	transition: box-shadow 0.2s;
+}
+
+.title-area-scrolled {
+	box-shadow: 0px 7px 6px -5px rgba(black, 0.3);
+}
+
+.title-container {
+
+}
+
+
+// main title
 .main-title {
 
 	span {
@@ -14,3 +77,15 @@
 		font-size: 1rem;
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+

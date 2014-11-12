@@ -17,13 +17,14 @@ $yellow: #fee019;
 $blue: #397bae;
 $orange: #efa334;
 $green: #75ba34;
+$background: #e6e6e6;
 
 
 /* ===== GLOBAL SETTINGS ===================================== */
 
 // global background settings
 body {
-	background: #e6e6e6;
+	background: $background;
 }
 
 // icons

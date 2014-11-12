@@ -67,7 +67,7 @@
 }
 
 .butte-highlands .butte-link {
-	color: $blue;
+	color: darken($blue, 5%);
 	background: rgba($blue, 0.1);
 
 	.icon-arrow {
@@ -95,7 +95,7 @@
 }
 
 .brimstone-mining .mayflower-link {
-	color: $green;
+	color: darken($green, 8%);
 	background: rgba($green, 0.1);
 
 	.icon-arrow {
@@ -123,7 +123,7 @@
 }
 
 .owyhee-gold-trust .ogt-link {
-	color: $orange;
+	color: darken($orange, 8%);
 	background: rgba($orange, 0.1);
 
 	.icon-arrow {
