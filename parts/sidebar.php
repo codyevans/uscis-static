@@ -33,7 +33,7 @@
 	</nav>
 
 	<div class="sidebar-meta">
-		<a href="#" class="button round contact-btn contact-btn-bh" data-reveal-id="contactForm-modal">Contact Us</a>
+		<a href="#" class="button round contact-btn" data-reveal-id="contactForm-modal">Contact Us</a>
 		<div class="copyright">
 			<p class="copyright__meta">© <?php echo date('Y'); ?> Quartzburg Gold, LP</p>
 		</div>

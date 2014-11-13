@@ -1,4 +1,4 @@
-/* ===== MAIN CONTENT AREA ==================================== */
+/* ===== MAIN CONTENT AREA ==================================================================== */
 
 .contentArea {
 	// adjust if needed
@@ -6,11 +6,12 @@
 
 .content-container {
 	width: 100%;
-	padding-left: 260px;
-	padding-right: 50px;
-	margin-top: 210px;
+	padding-left: 267px;
+	padding-right: 52px;
+	margin-top: 216px;
 }
 
+/* ===== top color bar ================================= */
 
 // color bar
 .color-bar {
@@ -39,13 +40,13 @@
 }
 
 
-/* ===== TITLE AREA ============================================ */
+/* ===== TITLE AREA ============================================================================ */
 
 .title-area-container {
 	position: fixed;
 	width: 100%;
 	top: 0px;
-	left: 243px;
+	left: 248px;
 	padding-right: 275px;
 	z-index: 50;
 }
@@ -55,7 +56,7 @@
 	background: $background;
 	width: 100%;
 	max-width: 64.7rem;
-	height: 188px;
+	height: 188px;  //188
 	box-shadow: 0px 7px 6px -5px rgba(black, 0);
 	transition: box-shadow 0.2s;
 }
@@ -64,19 +65,85 @@
 	box-shadow: 0px 7px 6px -5px rgba(black, 0.3);
 }
 
-.title-container {
-
-}
-
+/* ===== main title ===================================== */
 
 // main title
-.main-title {
-
-	span {
-		text-transform: uppercase;
-		font-size: 1rem;
-	}
+.title-container {
+	width: 100%;
+	padding-left: 18px;
+	padding-right: 18px;
 }
+
+.main-title {
+	margin: 0;
+	margin-top: -10px;
+	padding: 0
+}
+
+.uscis-title {
+	text-transform: uppercase;
+	font-size: 1rem;
+	margin: 0;
+	margin-top: 30px;
+	padding: 0;
+}
+
+/* ===== tabs - display btns ================================= */
+
+// spacing for btn on the right
+.tabs dd, .tabs .tab-title {
+	margin-right: 15px;
+}
+
+// round corners on btns
+.tabs dd>a, .tabs .tab-title>a {
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-weight: normal;
+	border-radius: 10px;
+	padding: 4px 32px;
+	background-color: #DADADA;
+	color: #333;
+	border: 1px solid #949494;
+}
+
+// foundation overides - active state color
+.butte-highlands .tabs dd.active a, .tabs .tab-title.active a {
+	background-color: $blue;
+	color: #FFF;
+	border: 1px solid darken($blue, 8%);
+}
+
+.brimstone-mining .tabs dd.active a, .tabs .tab-title.active a {
+	background-color: $green;
+	color: #FFF;
+	border: 1px solid darken($green, 8%);
+}
+
+.owyhee-gold-trust .tabs dd.active a, .tabs .tab-title.active a {
+	background-color: $orange;
+	color: #FFF;
+	border: 1px solid darken($orange, 8%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
