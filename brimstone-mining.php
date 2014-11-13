@@ -1,6 +1,6 @@
 <?php 
 	$body_class = 'brimstone-mining';
-	$page_title = '02. Brimstone Mining';
+	$page_title = 'Brimstone Mining';
 	include('header.php');
 ?>
 	<?php include('parts/sidebar.php'); ?>

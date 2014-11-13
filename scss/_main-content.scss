@@ -51,6 +51,20 @@
 	z-index: 50;
 }
 
+// project logos - temp version
+.temp-logo {
+	position: absolute;
+	top: 55px;
+	right: 310px;
+	background: red;
+	width: 150px;
+	height: 100px;
+}
+
+.project-logo {
+	// fill in with logos
+}
+
 // title area
 .title-area {
 	background: $background;
@@ -75,20 +89,68 @@
 }
 
 .main-title {
+	position: relative;
+	font-size: 2.5rem;
 	margin: 0;
-	margin-top: -10px;
-	padding: 0
+	margin-top: -8px;
+	margin-bottom: 21px;
+	border-bottom: 1px solid rgba(black, 0.1);
+	width: 75%;
+	padding-bottom: 7px;
+
+	&:before {
+		content: "01.";
+		font-size: .75rem;
+		position: absolute;
+		display: block;
+		background: $blue;
+		color: #FFF;
+		padding: 3px 5px 3px 50px;
+		bottom: 20px;
+		left: -78px;
+	}
+}
+
+.butte-highlands .main-title {
+	&:before {
+		content: "01.";
+		background: $blue;
+		color: #FFF;
+	}
+}
+
+.brimstone-mining .main-title {
+	&:before {
+		content: "02.";
+		background: $green;
+		color: #FFF;
+	}
+}
+
+.owyhee-gold-trust .main-title {
+	&:before {
+		content: "03.";
+		background: $orange;
+		color: #FFF;
+	}
 }
 
 .uscis-title {
 	text-transform: uppercase;
 	font-size: 1rem;
 	margin: 0;
-	margin-top: 30px;
+	margin-top: 27px;
+	margin-left: 2px;
+	margin-bottom: 3px;
 	padding: 0;
 }
 
 /* ===== tabs - display btns ================================= */
+
+.tabs-content>.content {
+	padding: 0px;
+	width: auto;
+}
 
 // spacing for btn on the right
 .tabs dd, .tabs .tab-title {
@@ -126,23 +188,9 @@
 	border: 1px solid darken($orange, 8%);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.info-tab p {
+	margin: 0 0 10px 0;
+}
 
 
 

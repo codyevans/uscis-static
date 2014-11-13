@@ -2,6 +2,7 @@
 	<div class="color-bar"></div>
 	
 	<div class="title-area-container">
+		<div class="project-logo temp-logo"></div>
 		<div class="title-area" id="titleArea">
 			<div class="title-container">
 				<div class="row">

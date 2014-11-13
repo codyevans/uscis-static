@@ -23,8 +23,11 @@
 								<li><a href="images/test-1.jpg" title="Butte Highlands" class="th"><img src="images/BH-thumbs/bh-thumb-1.jpg" alt=""></a></li>
 							</ul>
 							<!-- info tab -->
-							<div class="content" id="info-tab">
-						  		<p>This is the second panel of the basic tab example. This is the second panel of the basic tab example.</p>
+							<div class="content info-tab" id="info-tab">
+						  		<p><strong>Location:</strong> Alder, Montana</p>
+						  		<p><strong>Project Name:</strong> Butte Highlands / Highlands Mining</p>
+						  		<p><strong>Project Description:</strong> Underground Gold Mine.......</p>
+						  		<p><strong>Project Status:</strong> In development</p>
 							</div>
 
 						</div> <!-- /tabs-content -->

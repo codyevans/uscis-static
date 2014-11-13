@@ -1,6 +1,6 @@
 <?php
 	$body_class = 'owyhee-gold-trust';
-	$page_title = '03. Owyhee Gold Trust';
+	$page_title = 'Owyhee Gold Trust';
 	include('header.php'); 
 ?>
 	<?php include('parts/sidebar.php'); ?>
