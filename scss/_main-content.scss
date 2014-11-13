@@ -51,22 +51,9 @@
 	z-index: 50;
 }
 
-// project logos - temp version
-.temp-logo {
-	position: absolute;
-	top: 55px;
-	right: 310px;
-	background: red;
-	width: 150px;
-	height: 100px;
-}
-
-.project-logo {
-	// fill in with logos
-}
-
 // title area
 .title-area {
+	position: relative;
 	background: $background;
 	width: 100%;
 	max-width: 64.7rem;
@@ -78,6 +65,57 @@
 .title-area-scrolled {
 	box-shadow: 0px 7px 6px -5px rgba(black, 0.3);
 }
+
+// project logos
+.project-logo {
+	display: none;
+	position: absolute;
+	z-index: 70;
+}
+
+// project logos - bh
+.butte-highlands .project-logo {
+	top: 21px;
+	right: 45px;
+	width: 84px;
+}
+
+.butte-highlands .project-logo-bh {
+	display: block;
+}
+
+// project logos - brm
+.brimstone-mining .project-logo {
+	top: -10px;
+	right: 19px;
+	width: 220px;
+}
+
+.brimstone-mining .project-logo-brm {
+	display: block;
+}
+
+// project logos - ogt
+.project-logo-image {
+	display: none;
+}
+
+.owyhee-gold-trust .project-logo-image {
+	display: block;
+	position: absolute;
+	background: url('../images/project-logos/ogt-logo.png') no-repeat top right;
+	width: 215px;
+	height: 111px;
+	background-size: 100%;
+	top: 39px;
+	right: 25px;
+	z-index: 70;
+}
+
+.owyhee-gold-trust .project-logo-size {
+	//width: 120px;
+}
+
 
 /* ===== main title ===================================== */
 
@@ -95,8 +133,9 @@
 	margin-top: -8px;
 	margin-bottom: 21px;
 	border-bottom: 1px solid rgba(black, 0.1);
-	width: 75%;
 	padding-bottom: 7px;
+	//width: 85%; //bh
+	width: 72%; //brm 
 
 	&:before {
 		content: "01.";
