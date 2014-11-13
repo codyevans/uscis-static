@@ -24,12 +24,8 @@
 							</ul>
 							<!-- info tab -->
 							<div class="content info-tab" id="info-tab">
-						  		<p><strong>Location:</strong> Alder, Montana</p>
-						  		<p><strong>Project Name:</strong> Butte Highlands / Highlands Mining</p>
-						  		<p><strong>Project Description:</strong> Underground Gold Mine.......</p>
-						  		<p><strong>Project Status:</strong> In development</p>
+						  		<?php include('parts/project-info.php'); ?>
 							</div>
-
 						</div> <!-- /tabs-content -->
 					</div>
 				</div>

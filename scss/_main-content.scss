@@ -75,8 +75,8 @@
 
 // project logos - bh
 .butte-highlands .project-logo {
-	top: 21px;
-	right: 45px;
+	top: 22px;
+	right: 46px;
 	width: 84px;
 }
 
@@ -86,7 +86,7 @@
 
 // project logos - brm
 .brimstone-mining .project-logo {
-	top: -10px;
+	top: -9px;
 	right: 19px;
 	width: 220px;
 }
@@ -134,8 +134,7 @@
 	margin-bottom: 21px;
 	border-bottom: 1px solid rgba(black, 0.1);
 	padding-bottom: 7px;
-	//width: 85%; //bh
-	width: 72%; //brm 
+	width: 50%;
 
 	&:before {
 		content: "01.";
@@ -148,6 +147,18 @@
 		bottom: 20px;
 		left: -78px;
 	}
+}
+
+.butte-highlands .main-title {
+	width: 83%; //bh
+}
+
+.brimstone-mining .main-title {
+	width: 68%; //brm
+}
+
+.owyhee-gold-trust .main-title {
+	width: 68%; //ogt
 }
 
 .butte-highlands .main-title {

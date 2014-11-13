@@ -23,10 +23,9 @@
 								<li><a href="images/test-1.jpg" title="Butte Highlands" class="th"><img src="images/BH-thumbs/bh-thumb-1.jpg" alt=""></a></li>
 							</ul>
 							<!-- info tab -->
-							<div class="content" id="info-tab">
-						  		<p>This is the second panel of the basic tab example. This is the second panel of the basic tab example.</p>
+							<div class="content info-tab" id="info-tab">
+						  		<?php include('parts/project-info.php'); ?>
 							</div>
-
 						</div> <!-- /tabs-content -->
 					</div>
 				</div>
