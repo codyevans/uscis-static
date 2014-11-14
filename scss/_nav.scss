@@ -30,7 +30,7 @@
 	background: #f7f7f7;
 	border-left: 15px solid rgba(black, 0.2);
 
-	&:hover {
+	&:hover, &:focus {
 		color: darken(#696969, 5%);
 
 		.icon-arrow {
@@ -60,7 +60,7 @@
 	border-left: 10px solid $blue;
 	transition: 0.2s;
 
-	&:hover {
+	&:hover, &:focus {
 		background: rgba($blue, 0.15);
 		color: darken($blue, 5%);
 	}
@@ -78,7 +78,7 @@
 		fill: $blue;
 	}
 
-	&:hover {
+	&:hover, &:focus {
 		background: rgba($blue, 0.15);
 		color: darken($blue, 5%);
 	}
@@ -88,7 +88,7 @@
 	border-left: 10px solid $green;
 	transition: 0.2s;
 
-	&:hover {
+	&:hover, &:focus {
 		background: rgba($green, 0.15);
 		color: darken($green, 5%);
 	}
@@ -106,7 +106,7 @@
 		fill: $green;
 	}
 
-	&:hover {
+	&:hover, &:focus {
 		background: rgba($green, 0.15);
 		color: darken($green, 5%);
 	}
@@ -116,7 +116,7 @@
 	border-left: 10px solid $orange;
 	transition: 0.2s;
 
-	&:hover {
+	&:hover, &:focus {
 		background: rgba($orange, 0.15);
 		color: darken($orange, 5%);
 	}
@@ -134,7 +134,7 @@
 		fill: $orange;
 	}
 
-	&:hover {
+	&:hover, &:focus {
 		background: rgba($orange, 0.15);
 		color: darken($orange, 5%);
 	}

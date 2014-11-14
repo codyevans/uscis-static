@@ -1,6 +1,3 @@
-	<script src="js/vendor/jquery.js"></script>
-	<script src="js/foundation.min.js"></script>
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/app.js"></script>   
+	<script src="js/build/production.min.js"></script>
 </body>
 </html>

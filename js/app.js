@@ -1,6 +1,7 @@
 /* === VENDOR JS ================================= */
 
 // run foundation
+Foundation.global.namespace = ''; // Opera foundation js fix
 $(document).foundation();
 
 // lightbox options
