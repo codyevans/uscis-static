@@ -5,15 +5,7 @@
 		<div class="title-area" id="titleArea">
 			<div class="title-container">
 				<div class="project-logo-container">
-					<!-- bh logo -->
-					<svg viewBox="0 0 147.7 262.2" class="project-logo project-logo-bh">
-				  		<use xlink:href="#shape-bh-logo"></use>
-					</svg>
-					<!-- brm logo -->
-					<svg viewBox="0 0 230 194.4" class="project-logo project-logo-brm">
-				  		<use xlink:href="#shape-brm-logo"></use>
-					</svg>
-					<!-- ogt logo -->
+					<!-- project logo -->
 					<div class="project-logo-image project-logo-size"></div>
 				</div>
 				<div class="row">

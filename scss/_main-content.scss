@@ -67,41 +67,11 @@
 }
 
 // project logos
-.project-logo {
-	display: none;
-	position: absolute;
-	z-index: 70;
-}
-
-// project logos - bh
-.butte-highlands .project-logo {
-	top: 22px;
-	right: 46px;
-	width: 84px;
-	height: 149px;
-}
-
-.butte-highlands .project-logo-bh {
-	display: block;
-}
-
-// project logos - brm
-.brimstone-mining .project-logo {
-	top: -9px;
-	right: 19px;
-	width: 220px;
-	height: 186px;
-}
-
-.brimstone-mining .project-logo-brm {
-	display: block;
-}
-
-// project logos - ogt
 .project-logo-image {
 	display: none;
 }
 
+// project logos - ogt
 .owyhee-gold-trust .project-logo-image {
 	display: block;
 	position: absolute;
@@ -114,8 +84,30 @@
 	z-index: 70;
 }
 
-.owyhee-gold-trust .project-logo-size {
-	//width: 120px;
+// project logos - brm
+.brimstone-mining .project-logo-image {
+	display: block;
+	position: absolute;
+	background: url('../images/project-logos/brm-logo.png') no-repeat top right;
+	width: 240px;
+	height: 170px;
+	background-size: 100%;
+	top: 14px;
+	right: 18px;
+	z-index: 70;
+}
+
+// project logos - bh
+.butte-highlands .project-logo-image {
+	display: block;
+	position: absolute;
+	background: url('../images/project-logos/bh-logo.png') no-repeat top right;
+	width: 98px;
+	height: 165px;
+	background-size: 100%;
+	top: 14px;
+	right: 40px;
+	z-index: 70;
 }
 
 
@@ -152,15 +144,15 @@
 }
 
 .butte-highlands .main-title {
-	width: 83%; //bh
+	width: 80%; //bh
 }
 
 .brimstone-mining .main-title {
-	width: 68%; //brm
+	width: 65%; //brm
 }
 
 .owyhee-gold-trust .main-title {
-	width: 68%; //ogt
+	width: 67%; //ogt
 }
 
 .butte-highlands .main-title {
