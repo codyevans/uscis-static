@@ -5766,6 +5766,7 @@ $('.parent-container').magnificPopup({
   delegate: 'a', // child items selector, by clicking on it popup will open
   type: 'image',
   titleSrc: 'title',
+  preload: [1,2],
   gallery: {enabled: true}
   // other options
 });
